@@ -34,3 +34,5 @@ contract Stetri is ERC20, Pausable, Ownable {
 }
 
 // address : 0x45Df04564437040397221B41a232b76287b5CA42
+
+// old : "0x73715Ec8e26FF669F246753699e618871E430f52"

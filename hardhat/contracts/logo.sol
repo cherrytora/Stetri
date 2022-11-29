@@ -13,7 +13,7 @@ contract STlogo is ERC721, Ownable {
     constructor() ERC721("STlogo", "SKL") { _tokenIdCounter.increment(); }
 
     function _baseURI() internal pure override returns (string memory) {
-        return "https://ipfs.io/ipfs/QmdcxxqRyoVSwCez5saxRRRjUCteEtzWrZYfGLeANn4GJF?filename=stetri.json";
+        return "https://ipfs.io/ipfs/QmXi54FPmXYNeQJ6GPNrRZSfUVozzLiqAfhmrt2YrJThvE?filename=stetri.json";
     }
 
     function safeMint(address to) public onlyOwner {
@@ -22,3 +22,5 @@ contract STlogo is ERC721, Ownable {
         _safeMint(to, tokenId);
     }
 }
+
+// address:0x27E901Ad66B6Be71dE0FDaF59B01cBF2bbd21B90
